@@ -46,7 +46,7 @@ Thread_pool/
 ├── third_party/
 │   └── concurrentqueue.h
 │
-└── benchmark.cpp
+└── test.cpp
 ```
 
 ---
@@ -391,7 +391,7 @@ int main()
 ## MSVC
 
 ```bash
-cl /std:c++17 benchmark.cpp
+cl /std:c++17 test.cpp
 ```
 
 ---
@@ -417,14 +417,14 @@ cl /std:c++17 benchmark.cpp
 
 # 未来计划
 
-* [ ] work stealing
-* [ ] 协程支持
-* [ ] 更智能的 idle 策略
-* [ ] Linux 测试
-* [ ] 性能可视化
-* [ ] 更完整 benchmark
-* [ ] 无锁任务窃取
-* [ ] 更低延迟调度
+work stealing
+协程支持
+更智能的 idle 策略
+Linux 测试
+性能可视化
+更完整 benchmark
+无锁任务窃取
+更低延迟调度
 
 ---
 
